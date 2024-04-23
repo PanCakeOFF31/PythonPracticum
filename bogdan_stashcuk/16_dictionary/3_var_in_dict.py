@@ -25,10 +25,17 @@ print('my_motorbike[\'price_info\'][\'is_available\'] =',
 #
 bike_brand_key = 'brand'
 bike_brand = 'OMODA'
+
 bike_price_key = 'price'
 bike_price = 25500
+
+bike_weight_key = 'weight'
+bike_weight = 11.5
 
 my_motorbike = {
     bike_brand_key: bike_brand,
     bike_price_key: bike_price,
 }
+
+my_motorbike[bike_weight_key] = bike_weight
+print(my_motorbike)
