@@ -1,0 +1,5 @@
+number = float(input("Enter a float point number: "))
+print("malformed number:", number * 2)
+print("rounded number with 0 ndigits", round(number * 2))
+print("rounded number with 2 ndigits", round(number * 2, 2))
+print(type(round(number)), type(round(number, 1)))

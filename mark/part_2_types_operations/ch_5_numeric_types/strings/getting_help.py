@@ -1,0 +1,6 @@
+print(dir())
+s = str()
+print(dir(s))
+print(s.format)
+print(help(s.format))
+print(dir(str))
