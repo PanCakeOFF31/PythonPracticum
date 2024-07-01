@@ -1,0 +1,8 @@
+f = open('data.txt', 'a+')
+chars = f.write('Hello\n')
+f = open('data.txt')
+print(f.read())
+print(f.readline(2))
+f.close()
+print(dir(f))
+print(help(f.seek))

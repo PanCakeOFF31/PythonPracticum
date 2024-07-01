@@ -1,7 +1,7 @@
 import datetime
 
 
-def mult_by_factor(value, multiplier=1):
+def mult_by_factor(value, multiplier=1, ):
     return value * multiplier
 
 

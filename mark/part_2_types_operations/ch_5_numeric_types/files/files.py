@@ -1,8 +1,0 @@
-f = open('data.txt', 'w+')
-chars = f.write('Hello\n')
-f = open('data.txt')
-print(f.read())
-print(f.readline(10))
-f.close()
-print(dir(f))
-print(help(f.seek))

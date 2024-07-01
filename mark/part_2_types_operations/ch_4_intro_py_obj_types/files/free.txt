@@ -1,0 +1,6 @@
+This creates a file in the
+current directory and writes text
+to it (the filename can be a full
+directory path if you need to
+access a file elsewhere on your
+computer). To read back what you just wro
