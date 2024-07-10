@@ -31,3 +31,15 @@ def print_subsection(message: str = None):
 
 def print_subsection_ending():
     print(SUB_SECTION_LINE)
+
+
+def log(message: str = None):
+    print(SUB_SECTION_LINE)
+    if message is not None:
+        print('\t', message)
+
+
+def log_info(message: str = None):
+    print(SUB_SECTION_LINE)
+    if message is not None:
+        print(message)

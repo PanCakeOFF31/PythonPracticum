@@ -1,5 +1,5 @@
-def sum_args_1(*values):
-    print('values:', values)
+def sum_args_1(*args):
+    print('values:', args)
 
 
 def sum_args_2(a, *values):
