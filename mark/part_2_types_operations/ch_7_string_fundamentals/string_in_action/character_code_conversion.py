@@ -30,6 +30,7 @@ def program_2():
     print(chr(1200))
     print(ord('Ұ'))
 
+    print(next(iter([10])))
 
 # get next character
 program_2()

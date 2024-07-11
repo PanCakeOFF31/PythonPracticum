@@ -9,7 +9,6 @@ def program_1():
     index = s.find("ower")
     print(index)
     print("ower" in s)
-    
     pass
 
 

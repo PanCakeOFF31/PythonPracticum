@@ -11,12 +11,16 @@ def program_1():
 
     n1 = 10
     f = f'some text {n1}'
+
     print(f)
     f = "format string %d" % n1
     print(f)
     f = "format string {:.2f}".format(n1)
     print(f)
 
+    f = "format string %d" % n1
+    f = "format string {}".format(n1)
+    pass
 
 # common string literals and operators
 program_1()
@@ -33,3 +37,11 @@ def program_2():
 
 
 program_2()
+
+
+def program_3():
+    print_section("program_3()")
+    pass
+
+
+program_3()

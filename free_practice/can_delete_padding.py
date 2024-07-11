@@ -1,5 +1,4 @@
 import sys;
-
 from helpers import print_section
 
 print('Hello!')
@@ -45,6 +44,7 @@ def program_1():
 # assert
 program_1()
 
+
 print(sys.getsizeof('aяы'))
 
 # удаление по значению
@@ -68,3 +68,4 @@ print('dir')
 print(dir())
 print(dir(str))
 print(help(str.index))
+

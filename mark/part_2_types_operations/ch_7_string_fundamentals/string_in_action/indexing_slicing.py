@@ -28,8 +28,8 @@ def program_2():
     print('Реализация среза через объект slice:', s[slice(0, 5, 2)])
     print('Реализация среза через объект slice:', s[slice(None)])
 
-    pass
-
-
 # slice objects with index syntax
 program_2()
+
+# import sys
+# print(sys.argv)
