@@ -63,13 +63,13 @@ def program_3():
 
     # Здесь современный подход для сохранения состояния
     def f3():
-        x = 88
-
         def f4():
             nonlocal x
             x *= 2
             return x
 
+        # f4()
+        x = 88
         return f4
 
     ff = f3()
